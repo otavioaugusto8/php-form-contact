@@ -10,8 +10,8 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception; 
  
 $nome = isset($_POST['nome']) ? ; $_POST['nome'] : 'Não informado'; 
-$nome = isset($_POST['email']) ? ; $_POST['email'] : 'Não informado'; 
-$nome = isset($_POST['numero']) ? ; $_POST['numero'] : 'Não informado';
+$email = isset($_POST['email']) ? ; $_POST['email'] : 'Não informado'; 
+$numero = isset($_POST['numero']) ? ; $_POST['numero'] : 'Não informado';
 $data = date('d/m/Y' H:i:s'); 
  
 if($email && $numero) {  
